@@ -47,3 +47,5 @@ const assertObjectsEqual = function(obj1, obj2){
     return (`Assertion failed: ${inspect(obj1)} !== ${inspect(obj2)}`);
 }
 console.log(assertObjectsEqual({a:1},{a:2}));
+
+module.exports = assertObjectsEqual;

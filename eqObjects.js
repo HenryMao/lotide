@@ -39,6 +39,8 @@ const eqArrays = function(arr1, arr2){
   
 }
 
+module.exports = eqObjects;
+
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
 console.log(eqObjects(ab, ba)); // => true

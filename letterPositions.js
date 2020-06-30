@@ -10,4 +10,6 @@ const letterPositions = function(str){
   return results;
 };
 
+module.exports = letterPositions;
+
 console.log(letterPositions("aaabbbccccddddd"));

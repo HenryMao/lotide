@@ -22,3 +22,5 @@ const countLetters = function(str){
 }
 
 console.log(countLetters("aaabbbsssscccc"));
+
+module.exports = countLetters;
