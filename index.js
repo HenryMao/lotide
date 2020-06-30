@@ -32,7 +32,6 @@ module.exports = {
   findKeyByValue,
   letterPositions,
   map,
-  tails,
   takeUntil,
   without
 };
